@@ -1917,7 +1917,7 @@ footer
     .blog-content1, .blog-content2, .blog-content4, .blog-content5
     {
         margin: 1rem 0;
-        width: 250px;
+        width: 100%;
     }
 
     /* Now to the lower section */
@@ -1935,6 +1935,13 @@ footer
     .information
     {
         flex-direction: column;
+    }
+
+    .info-col1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -2270,6 +2277,13 @@ footer
     .lower-icons
     {
         margin: 1rem 0;
+    }
+
+    .info-col1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
