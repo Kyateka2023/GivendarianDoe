@@ -1,0 +1,2678 @@
+*
+{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    font-family: 'Maven Pro', Arial, Helvetica, sans-serif;
+    height: 100%;
+    overflow: hidden;
+}
+
+.entire-section
+{
+    height: 100%;
+    overflow: auto;
+}
+
+#menu
+{
+    display: none;
+}
+
+header
+{
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
+
+.dropdown-menu
+{
+    display: flex;
+    align-items: center;
+}
+
+label
+{
+    display: none;
+}
+
+.banner
+{
+    display: flex;
+    align-items: center;
+}
+
+.banner p
+{
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+.dropdown-menu
+{
+    position: relative;
+    height: 3rem;
+}
+
+nav a
+{
+    text-decoration: none;
+    margin: 0 0.3rem;
+    color: whitesmoke;
+    border-bottom: rgb(221, 0, 0);
+    padding-bottom: 0.3rem;
+}
+
+nav a:hover
+{
+    border-bottom: rgb(221, 0, 0) solid 2px;
+}
+
+nav a:active
+{
+    border-bottom: none;
+}
+
+.fa-dragon
+{
+    font-size: 2rem;
+    color: rgb(221, 0, 0);
+}
+
+main
+{
+    height: max-content;
+}
+
+.home
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(19, 19, 19);
+    color: whitesmoke;
+    background-image: url(peterson.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 50% 10%;
+}
+
+.home p
+{
+    font-size: 1.2rem;
+}
+
+h1
+{
+    font-size: 8rem;
+}
+
+.home pre
+{
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.me 
+{
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    border-radius: 2px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgb(221, 0, 0);
+}
+
+.me:hover
+{
+    background-color: rgb(255, 35, 35);
+}
+
+.me:active
+{
+    transform: scale(0.95);
+}
+
+.play
+{
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.play:hover
+{
+    transform: scale(1.05);
+}
+
+.play:active
+{
+    transform: scale(0.95);
+}
+
+/* -----------------------------------------Finished Home section --------------------------------------------------------------------- */
+
+.about
+{
+    
+    padding: 1rem 0;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image
+{
+    
+    padding: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img
+{
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.395);
+    width: 350px;
+    height: auto;
+}
+
+.description
+{
+    width: 50%;
+    
+    padding: 1rem;
+}
+
+.description h3
+{
+    margin: 1rem 0;
+    font-size: 2.5rem;
+}
+
+.description p
+{
+    margin-bottom: 2rem;
+    font-style: italic;
+    color: rgb(66, 66, 66);
+}
+
+.table
+{
+    
+    display: flex;
+    margin: 2rem 0;
+}
+
+.row1,.row2
+{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+.col1, .col2
+{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.title
+{
+    font-weight: bold;
+}
+
+.col1 p, .col2 p
+{
+    margin: 1rem 0;
+}
+
+.about-links
+{
+    
+    padding: 0.8rem 0;
+}
+
+.cv
+{
+    
+    padding: 0.8rem;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(221, 0, 0);
+    border-radius: 2px;
+    font-weight: bold;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.cv:hover
+{
+    background-color: rgb(210, 54, 54);
+    color: white;
+    transform: scale(1.05);
+}
+
+.cv:active
+{
+    transform: scale(0.85);
+    cursor: wait;
+}
+
+.hire-me
+{
+    
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(78, 78, 78);
+    border-radius: 2px;
+    font-weight: bold;
+    margin-right: 1rem;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35);
+}
+
+.hire-me:hover
+{
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(99, 99, 99);
+}
+
+.hire-me:active
+{
+    transform: scale(0.85);
+}
+
+/* ---------------------------------------------Done with About section-------------------------------------------------------------- */
+
+.skills
+{
+    
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: rgb(221, 0, 0);
+    color: whitesmoke;
+}
+
+.intro-skills
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 50%;
+}
+
+.intro-skills h3
+{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.intro-skills p
+{
+    font-style: italic;
+}
+
+.the-skills
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 50%;
+}
+
+.skills-set
+{
+    
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.skills-set span
+{
+    font-size: 3rem;
+    color: rgb(221, 0, 0);
+}
+
+.p-ranges
+{
+    
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.p-ranges p
+{
+    font-weight: bold;
+    color: black;
+}
+
+.range
+{
+    
+    border-radius: 30px;
+    background-color: rgba(128, 128, 128, 0.463);
+    margin-top: 0.8rem;
+    width: 100%;
+}
+
+.percentage1
+{
+    background-color: rgb(221, 0, 0);
+    width: 83%;
+    border-radius: 30px;
+}
+
+.percentage2
+{
+    background-color: rgb(221, 0, 0);
+    width: 75%;
+    border-radius: 30px;
+}
+
+.percentage3
+{
+    background-color: rgb(221, 0, 0);
+    width: 90%;
+    border-radius: 30px;
+}
+
+.the-buttons
+{
+    
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.left
+{
+    
+    color: whitesmoke;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.right
+{
+    
+    color: whitesmoke;
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 1rem;
+}
+
+.left:hover, .right:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.709);
+}
+
+.left:active, .right:active
+{
+    cursor: wait;
+    transform: scale(0.9);
+}
+/* -----------------------------------------------------Done with Skill Sections----------------------------------------------------- */
+
+.resume
+{
+    padding-top: 3rem;
+    height: 125vh, max-content;
+    background-color: rgb(230, 230, 230);
+}
+
+.resume-intro
+{
+    text-align: center;
+}
+
+.resume-h2
+{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.resume-p 
+{
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.resume-links
+{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.resume-links a
+{
+    padding: 1rem;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(95, 95, 95);
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+.resume-links a:hover
+{
+    color: rgb(221, 0, 0);
+    border-bottom: rgb(221, 0, 0) solid 3px;
+}
+
+.resume-links a:active
+{
+    cursor: wait;
+}
+
+#exp
+{
+    color: rgb(221, 0, 0);
+    border-bottom: rgb(221, 0, 0) solid 3px;
+}
+
+.resume-experience
+{
+    
+    padding: 1rem;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.exp-part1, .exp-part2
+{
+    padding: 1rem;
+    width: 900px;
+    margin: 0.5rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp1-col1
+{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2.5px;
+    height: max-content;
+    width: 100%;
+}
+
+.exp1-col2
+{
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2.5px;
+    height: 28%;
+    width: 100%;
+}
+
+.exp2-col1
+{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2.5px;
+    height: 28%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.426);
+    width: 100%;
+}
+
+.exp2-col2
+{
+    padding: 1rem;
+    background-color: white;
+    border-radius: 2.5px;
+    height: max-content;
+    width: 100%;
+}
+
+.company-year
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+.company-description
+{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.company-icon
+{
+    color: white;
+    background-color: rgb(255, 35, 35);
+    padding: 0.5rem;
+    border-radius: 100%;
+    font-size: 1.3rem;
+}
+
+.apple
+{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-heading
+{
+    color: rgb(255, 35, 35);
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.company-details, .year, .company-definition
+{
+    font-size: 0.8rem;
+}
+
+hr
+{
+    margin-top: 1rem;
+}
+
+.company-definition
+{
+    margin-top: 1rem;
+}
+
+.tags
+{
+    border: 1.25px solid black;
+    padding: 0.2rem 0.8rem;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0.8rem 0;
+    font-size: 0.7rem;
+}
+
+.google-img
+{
+    
+    margin: 1rem 0 0 0;
+}
+
+.google-image
+{
+    width: 100%;
+    height: max-content;
+}
+
+/*---------------------------------------- Done with resume section------------------------------------------------------------------- */
+
+.services
+{
+    height: max-content;
+    background-color: black;
+    background-image: url(peterson.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+
+.black-background
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: max-content;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-header
+{
+    text-align: center;
+}
+
+.services-header h3
+{
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+.services-offered
+{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.design, .brand, .photo
+{
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    width: 325px;
+}
+
+.design h3, .brand h3, .photo h3
+{
+    font-size: 1.2rem;
+}
+
+.web-design, .branding, .photography
+{
+    margin-bottom: 1rem;
+    display: inline-block;
+    font-size: 3rem;
+    color: rgb(255, 35, 35);
+}
+
+.web-description, .brand-description, .photo-description
+{
+    margin: 1rem;
+}
+
+/* Done with services sections */
+.portfolio
+{
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-images
+{
+    padding: 1rem;
+    display: flex;
+}
+
+.port-img-row1
+{
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.port-img
+{
+    position: relative;
+}
+
+.bg-color
+{
+    position: absolute;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(221, 0, 0, 0.8);
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.port-img img
+{
+    width: 100%;
+    height: auto;
+}
+
+.load-more
+{
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    background-color: rgb(221, 0, 0);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem 0;
+    transition: all 0.25s;
+    display: inline-block;
+}
+
+.load-more:hover
+{
+    cursor: pointer;
+    background-color: rgba(221, 0, 0, 0.817);
+    transform: scale(1.05);
+}
+
+.load-more:active
+{
+    transform: scale(0.95);
+    cursor: wait;
+}
+
+.portfolio-links
+{
+    padding: 0.8rem;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+.port-links
+{
+    padding: 0.8rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+
+.port-links:hover
+{
+    border-bottom: solid 2px rgb(221, 0, 0);
+    color: rgb(221, 0, 0);
+}
+
+/* done with the portfolio section */
+.team
+{
+    padding: 1rem;
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.myteamates
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: max-content;
+    width: 100%;
+}
+
+.teammates
+{
+    background-color: white;
+    border-radius: 10px;
+    width: max-content;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 1rem;
+    width: 205px;
+    margin: 0 2rem;
+}
+
+.team-img
+{
+    width: 200px;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.mate-name
+{
+    margin: 1rem 0;
+}
+
+.viewed
+{
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.range
+{
+    background-color: rgb(226, 226, 226);
+}
+
+.percentage1
+{
+    background-color: rgb(221, 0, 0);
+    padding: 0.25rem;
+    width: 90%;
+}
+
+.percentage2
+{
+    background-color: rgb(221, 0, 0);
+    padding: 0.25rem;
+    width: 70%;
+}
+
+.percentage3
+{
+    background-color: rgb(221, 0, 0);
+    padding: 0.25rem;
+    width: 85%;
+}
+
+.team-row1
+{
+    display: flex;
+    justify-content: center;
+}
+
+.media-icon
+{
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconz
+{
+    font-size: 1.5rem;
+}
+
+.nav-dots
+{
+    padding: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+}
+
+.dot1
+{
+    padding: 0.3rem;
+    background-color: rgb(221, 0, 0);
+    border-radius: 100%;
+}
+
+.dot2
+{
+    padding: 0.3rem;
+    background-color: rgb(173, 173, 173);
+    border-radius: 100%;
+}
+
+/* 
+    The next section is for the achievements.
+*/
+
+.achievements-section
+{
+    background-color: rgba(0, 0, 0, 0.795);
+    color: whitesmoke;
+    padding: 1rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievement-bgcolor
+{
+    background-image: url(icyranges.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.achieve-row1
+{
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.achievement-icon
+{
+    font-size: 2rem;
+    font-weight: bolder;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.achievement-p
+{
+    font-size: 1.1rem;
+}
+
+/* Social section starts from here */
+.social
+{
+    height: max-content;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.social-heading
+{
+    font-size: 1.9rem;
+    margin: 1rem;
+}
+
+.social-details
+{
+    margin: 1rem;
+}
+
+.social-links
+{
+    text-decoration: none;
+    color: rgb(221, 0, 0);
+    font-style: italic;
+}
+
+.social-media-icons
+{
+    border-bottom: 1px solid black;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.social-icons
+{
+    padding: 1rem;
+    margin: 0 0.5rem;
+}
+
+.social-icons:hover
+{
+    border-bottom: 3px solid rgb(221, 0, 0);
+    color: rgb(221, 0, 0);
+    cursor: pointer;
+}
+
+.social-rows
+{
+    display: flex;
+}
+
+.social-img
+{
+    padding: 0.1rem;
+    width: 100%;
+    height: auto;
+}
+
+/* Testimony starts from here */
+.testimony
+{
+    height: max-content;
+    background-image: url(testifer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: contain;
+    background-color: rgb(255, 187, 200);
+}
+
+.testimony-bg-color
+{
+    background-color: rgba(0, 0, 0, 0.877);
+    height: 100%;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testifier
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    margin: 3rem;
+}
+
+.person-testifier
+{
+    border-radius: 100%;
+    width: 100%;
+    height: auto;
+}
+
+/* 
+    BLOG SECTION STARTS HERE
+*/
+.blog
+{
+    height: max-content;
+    background-color: rgb(237, 237, 237);
+    padding: 5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-header
+{
+    text-align: center;
+}
+
+.blog-main-column
+{
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.blog-column
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    height: max-content;
+    width: 100%;
+}
+
+.blog-heading
+{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.blog-detail
+{
+    font-size: 1rem;
+    margin: 1.5rem;
+}
+
+.blog-link
+{
+    margin: 2rem 0;
+}
+
+.view-all
+{
+    background-color: rgb(221, 0, 0);
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 2.5px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.view-all:hover
+{
+    background-color: rgba(221, 0, 0, 0.863);
+    transform: scale(1.05);
+}
+
+.view-all:active
+{
+    background-color: rgba(221, 0, 0, 0.663);
+    transform: scale(0.95);
+    cursor: wait;
+}
+
+.blog-spaced1
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-spaced2
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-structure
+{
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: whitesmoke;
+}
+
+.share-icon
+{
+    border-left: 1px black solid;
+    padding: 0.5rem;
+    color: rgb(120, 120, 120);
+}
+
+.spaced-comments
+{
+    padding: 0.5rem;
+    color: rgb(120, 120, 120);
+}
+
+.blog-h3
+{
+    margin: 0 0 1rem 0;
+}
+
+/* blog contents part 1 */
+.blog-content1
+{
+    padding: 0.1rem;
+    width: 320px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.blog-content2
+{
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.58);
+    width: 320px;
+    height: max-content;
+}
+
+.blog-post-heading
+{
+    margin: 0.5rem 0;
+}
+
+.blog-audio
+{
+    margin: 0.5rem 0;
+}
+
+.blog-audio-details
+{
+    padding: 0.5rem;
+}
+
+.blog-content4
+{
+    width: 320px;
+    height: max-content;
+    border-radius: 5px;
+    padding: 0;
+    background-color: white;
+}
+
+.blog-content5
+{
+    width: 320px;
+    height: max-content;
+    padding: 0;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.video-details
+{
+    padding: 0.5rem;
+}
+
+.blog-image-details
+{
+    margin: 1rem 0 0.5rem 0;
+    padding-left: 0.5rem;
+}
+
+.blog-image
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+
+.date-img
+{
+    position: absolute;
+    bottom: 1rem;
+    left: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.camera-kid-img
+{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+/* We are doing the lower section */
+.lower-section
+{
+    height: 75vh;
+    background-image: url(contactimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.lower-bgcolor
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lower-tripple
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: max-content;
+}
+
+.lower-double
+{
+    display: flex;
+    width: max-content;
+    padding: 1rem;
+    height: max-content;
+}
+
+.lower-single
+{
+    padding: 1rem;
+    width: max-content;
+    height: max-content;
+}
+
+.lower-icons
+{
+    padding: 1rem;
+    margin: 0 1.5rem;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.lower-icon
+{
+    border-right: 1px solid white;
+    font-size: 3rem;
+    padding-right: 0.5rem;
+    color: rgb(221, 0, 0);
+}
+
+.lower-details
+{
+    border-left: 1px solid white;
+    padding-left: 0.5rem;
+    color: white;
+}
+
+/* NOw its the contact section */
+.contacts
+{
+    padding: 1rem;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-header
+{
+    text-align: center;
+    margin: 3rem;
+}
+
+.contacts-heading
+{
+    font-size: 1.9rem;
+    margin: 2rem 0;
+}
+
+.conacts-paragraph
+{
+    margin: 1rem 0;
+}
+
+form
+{
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}   
+
+.contacts-input, .contacts-text
+{
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name, #mail, #subject
+{
+    margin: 0 1rem;
+    border: rgb(221, 0, 0) 1px solid;
+    padding: 0.5rem;
+    color: rgb(221, 0, 0);
+    outline: none;
+     border-radius: 2.5px;   
+    width: 100%;
+}
+
+#message
+{
+    width: 100%;
+    border: rgb(221, 0, 0) 1px solid;
+    height: 200px;
+    border-radius: 2.5px;
+    color: rgb(221, 0, 0);
+    outline: none;
+}
+
+#button
+{
+    color: white;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 1rem;
+    border: none;
+    background-color: rgb(221, 0, 0);
+    width: 200px;
+    border-radius: 3px;
+    transition: all 0.25s;
+}
+
+#button:hover
+{
+    background-color: rgba(255, 35, 35, 0.9);
+    cursor: pointer;
+    transform: scale(0.95);
+}
+
+#button:active
+{
+    background-color: rgba(221, 0, 0, 0.712);
+    transform: scale(1);
+    cursor: wait;
+}
+
+input::placeholder, textarea::placeholder
+{
+    opacity: 1;
+    color: rgb(221, 0, 0);
+}
+
+/* we ARE LASTLY ON THE FOOTER SECTION */
+footer
+{
+    background-color: black;
+    color: white;
+}
+
+.location
+{
+    height: 10vh;
+    background-image: url(map.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.location-bgcolor
+{
+    background-color: rgba(221, 0, 0, 0.654);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.information
+{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.info1
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.info2
+{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.info 
+{
+    margin: 0.5rem 0;
+}
+
+.info-col1
+{
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.info-col2
+{
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.p-icons
+{
+    width: max-content;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-icons
+{
+    margin: 0 0.8rem;
+}
+
+@media only screen and (max-width: 1192px)
+{
+    /* This is for the hamburger menu */
+    .dropdown-menu
+    {
+
+        width: max-content;
+    }
+
+    label
+    {
+        display: block;
+        padding: 0.6rem;
+        font-size: 1.5rem;
+        color: rgb(221, 0, 0);
+        text-align: right;
+    }
+
+    label:hover
+    {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.089);
+    }
+
+    label:active
+    {
+        transform: scale(0.9);
+    }
+
+    nav
+    {
+        display: none;
+        position: absolute;
+        right: -0.5rem;
+        top: 3rem;
+    }
+
+    input:checked + nav
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav a
+    {
+        padding: 1rem;
+        background-color: rgb(11, 11, 11);
+    }
+
+    nav a:hover
+    {
+        background-color: rgb(221, 0, 0);
+        transform: scale(1.1);
+    }
+
+    nav a:active
+    {
+        transform: scale(0.98);
+    }
+
+    .contact
+    {
+        font-weight: normal;
+        padding: 1rem;
+        background-color: rgb(221, 0, 0);
+    }
+
+    .contact:hover
+    {
+        border-bottom: none;
+        transform: scale(1.1);
+    }
+
+    .contact:active
+    {
+        background-color: rgb(221, 0, 0);
+        transform: scale(0.98);
+    }
+    /* -----------------------------------------Finished Home section ----------------------------------------------------------------- */
+
+    .image img
+    {
+        width: 300px;
+        height: auto;
+    }
+
+    .description
+    {
+        width: 50%;
+        
+        padding: 1rem;
+    }
+    
+    .description h3
+    {
+        margin: 0.5rem 0;
+        font-size: 1.8rem;
+    }
+    
+    .description p
+    {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    /* ----------------------------table----------------------- */
+
+    .table
+    {
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .row1,.row2
+    {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+
+    .col1, .col2
+    {
+        
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .title
+    {
+        font-weight: bold;
+    }
+
+    .col1 p, .col2 p
+    {
+        margin: 0.5rem 0;
+    }
+
+    .about-links
+    {
+        
+        padding: 0.8rem 0;
+        display: flex;
+    }
+
+    .cv
+    {
+        
+        padding: 0.4rem 0.7rem;
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+
+    .hire-me
+    {
+        
+        padding: 0.4rem 0.7rem;
+        font-size: 0.8rem;
+        margin-right: 1rem;
+    }
+
+    /* -----------------------------------------------------FInished the About section ------------------------------------------------ */
+
+        .skills
+    {
+        margin: 1rem 0;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .intro-skills
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+    }
+
+    .the-skills
+    {
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        height: 300px;
+        margin: 2rem;
+    }
+
+    .skills-set
+    {
+        
+        background-color: white;
+        width: 30%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .the-buttons
+    {
+        height: 50%;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .left
+    {
+        padding: 1rem;
+        margin-top: 1rem;
+        border-radius: 100%;
+    }
+
+    .right
+    {
+
+        padding: 1rem;
+        border-radius: 100%;
+    }
+    /* --------------------------------------------------------------Skill section is dones ------------------------------------------- */
+
+    .design, .brand, .photo
+    {
+        padding: 1rem;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        width: 300px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .design h3, .brand h3, .photo h3
+    {
+        font-size: 1rem;
+    }
+
+    .web-design, .branding, .photography
+    {
+        margin-bottom: 1rem;
+        display: inline-block;
+        font-size: 2rem;
+        color: rgb(255, 35, 35);
+    }
+
+    .web-description, .brand-description, .photo-description
+    {
+        margin: 1rem;
+        font-size: 0.8rem;
+    }
+
+    
+    .services-offered
+    {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: max-content;
+    }
+
+    /* This is for the team section */
+    .team
+    {
+        height: max-content;
+        padding: 3rem 0;
+    }
+
+
+    .myteamates
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: max-content;
+        width: 100%;
+    }
+
+    .team-row1
+    {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    /* 
+    The next section is for the achievements.
+    */
+
+    .achievements-section
+    {
+        padding: 1rem;
+        height: max-content;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .achieve-row1
+    {
+        padding: 1rem;
+        display: flex;
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    /* Blog Post section */
+    .blog-main-column
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .blog-column
+    {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog-content1, .blog-content2, .blog-content4, .blog-content5
+    {
+        margin: 1rem 0;
+        width: 250px;
+    }
+
+    /* Now to the lower section */
+    .lower-tripple
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lower-single
+    {
+        margin: 1rem 0;
+    }
+
+    .information
+    {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 760px)
+{
+    .portfolio-links
+    {
+        padding: 0.8rem;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+
+    .port-links
+    {
+        padding: 0.4rem;
+        margin: 0 0.25rem;
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: rgb(84, 84, 84);
+    }
+
+
+    /* Start of the home section below */
+    h1
+    {
+        font-size: 4rem;
+    }
+
+    .home pre
+    {
+        padding: 0.5rem 0;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .home p
+    {
+        font-size: 1.2rem;
+    }
+
+    .play
+    {
+        font-size: 2rem;
+    }
+
+    .me 
+    {
+        padding: 0.8rem;
+        font-size: 0.8rem;
+        border-radius: 2px;
+    }
+    /* -----------------------------------------Finished Home section ---------------------------------------------------------------- */
+
+    .about
+    {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+    }
+
+    .about-links
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: max-content;
+    }
+
+
+    .description
+    {
+        min-width: 100%;
+    }
+
+    .cv, .hire-me
+    {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .col1, .col2
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    /* ----------------------------------------------------------done with about section ------------------------------------------ */
+    .the-buttons
+    {
+        padding: 0.1rem;
+        width: 225px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .the-skills
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 80%;
+        height: max-content;
+        margin: 2rem 0;
+    }
+
+    .intro-skills
+    {
+        text-align: center;
+    }
+
+    .the-skills
+    {
+        width: 300px;
+    }
+
+    .skills-set
+    {
+        
+        background-color: white;
+        margin-top: 1rem;
+        padding: 1rem 1.5rem 3rem 1.5rem;
+        width: 240px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+
+    .skills-set span
+    {
+        font-size: 2.5rem;
+    }
+
+    .p-ranges p
+    {
+        font-size: 0.8rem;
+    }
+
+    /* -----------------------------------------------SKills section is done----------------------------------------------------------- */
+
+    .resume-h2
+    {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .resume-p 
+    {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .resume-links a
+    {
+        padding: 0.5rem;
+        width: 150px;
+        margin: 0 0.3rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .resume-experience
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .exp-part1, .exp-part2
+    {
+        
+        padding: 1rem;
+        width: 100%;
+        margin: 0.5rem;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exp1-col1
+    {
+        padding: 1rem;
+        height: max-content;
+        width: 80%;
+
+    }
+
+    .exp1-col2
+    {
+        margin-top: 1rem;
+        padding: 1rem;
+        height: max-content;
+        width: 80%;
+    }
+
+    .exp2-col1
+    {
+        padding: 1rem;
+        border-radius: 2.5px;
+        height: 28%;
+        width: 80%;
+        
+    }
+
+    .exp2-col2
+    {
+        padding: 1rem;
+        border-radius: 2.5px;
+        height: max-content;
+        width: 80%;
+    }
+
+    .gold
+    {
+
+        width: 200px;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .gold-icon
+    {
+        font-size: 2rem;
+    }
+
+    .gold-p
+    {
+        font-size: 1.1rem;
+    }
+
+    /* NOw am doing the team section */
+    .team-row1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .team
+    {
+        height: max-content;
+    }
+
+    .teammates
+    {
+        background-color: white;
+        border-radius: 10px;
+        width: max-content;
+        height: 100%;
+        text-align: center;
+        padding-bottom: 1rem;
+        width: 205px;
+        margin: 1rem 0;
+    }
+
+    /* Achievement section starts below */
+    .achievement-icon
+    {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    .achievement-p
+    {
+        font-size: 0.8rem;
+    }
+
+    .social-icons
+    {
+        padding: 0.5rem;
+        margin: 0 0.2rem;
+        font-size: 0.6rem;
+    }
+
+    /* Blog Post section */
+    .blog-main-column
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .blog-column
+    {
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    .blog-content1, .blog-content2, .blog-content4, .blog-content5
+    {
+        margin: 1rem 0;
+        width: 85%;
+    }
+
+    /* NOw we are in the lower section */
+    .lower-double
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .lower-single
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .lower-icons
+    {
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .contacts-input
+    {
+        flex-direction: column;
+    }
+
+    #mail, #name, #subject
+    {
+        margin: 1rem 0;
+    }
+
+    .info1, .info2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-col1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info-col2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 460px)
+{
+    h1
+    {
+        font-size: 2rem;
+    }
+
+    .home pre
+    {
+        padding: 0.3rem 0;
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+
+    .home p
+    {
+        font-size: 0.9rem;
+    }
+
+    .play
+    {
+        font-size: 1.5rem;
+    }
+
+    .me 
+    {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+        border-radius: 2px;
+    }
+    /* -----------------------------------------Finished Home section ---------------------------------------------------------------- */
+
+    .resume-h2
+    {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .resume-p 
+    {
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .resume-links a
+    {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        width: 90px;
+        margin: 0 0.3rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exp-part1, .exp-part2
+    {
+        padding: 1rem 0;
+        width: 320px;
+        margin: 0.5rem;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .exp1-col1
+    {
+        padding: 1rem;
+        height: max-content;
+        width: 280px;
+
+    }
+
+    .exp1-col2
+    {
+        margin-top: 1rem;
+        padding: 1rem;
+        height: max-content;
+        width: 280px;
+    }
+
+    .exp2-col1
+    {
+        padding: 1rem;
+        border-radius: 2.5px;
+        height: 28%;
+        width: 280px;
+        
+    }
+
+    .exp2-col2
+    {
+        padding: 1rem;
+        border-radius: 2.5px;
+        height: max-content;
+        width: 280px;
+    }
+
+    /* End of resume section */
+    .design, .brand, .photo
+    {
+        padding: 1rem;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        width: 240px;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    /* End of  the previous section */
+    .portfolio-links
+    {
+        padding: 0.8rem;
+        margin-top: 1rem;
+        text-decoration: none;
+    }
+
+    .port-links
+    {
+        padding: 0.2rem;
+        margin: 0 0.1rem;
+        font-size: 0.6rem;
+        text-decoration: none;
+        color: rgb(84, 84, 84);
+    }
+
+    .gold
+    {
+        width: 100px;
+        margin: auto;
+        font-size: 1rem;
+    }
+
+    .gold-icon
+    {
+        font-size: 1.5rem;
+    }
+
+    .gold-p
+    {
+        font-size: 0.6rem;
+    }
+
+    .desiner
+    {
+        font-size: 0.5rem;
+    }
+
+    /* Achievement section starts below */
+    .achievement-icon
+    {
+        font-size: 1.2rem;
+        font-weight: bolder;
+        display: inline-block;
+        margin-bottom: 1rem;
+    }
+
+    .achievement-p
+    {
+        font-size: 0.6rem;
+    }
+
+    /* Now we are going to do the social section */
+    .social-media-icons
+    {
+        padding: 0.5rem;
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .social-icons
+    {
+        padding: 0.5rem;
+        margin: 0 0.2rem;
+        font-size: 0.6rem;
+    }
+
+    .social-images
+    {
+        display: flex;
+    }
+
+    .social-rows
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+        /* NOw we are in the lower section */
+        .lower-tripple
+        {
+            padding: 0;
+        }
+    
+        .lower-double
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .lower-single
+        {
+            margin: 0;
+        }
+    
+        .lower-icons
+        {
+            margin: 1rem 0;
+        }
+    
+        .lower-icon
+        {
+            font-size: 1.5rem;
+        }
+    
+        .lower-details
+        {
+            font-size: 0.8rem;
+        }
+}
+
+@media only screen and (max-width: 380px)
+{
+    h1
+    {
+        font-size: 2rem;
+    }
+
+    .home pre
+    {
+        padding: 0.3rem 0;
+        font-size: 0.6rem;
+        margin-bottom: 1rem;
+    }
+
+    .home p
+    {
+        font-size: 0.9rem;
+    }
+
+    .play
+    {
+        font-size: 1.5rem;
+    }
+
+    .me 
+    {
+        padding: 0.5rem;
+        font-size: 0.7rem;
+        border-radius: 2px;
+    }
+
+    /* -----------------------------------------Finished Home section ----------------------------------------------------------------- */
+    .image img
+    {
+        width: 200px;
+    }
+
+    .col1, .col2
+    {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    /* -----------------------------------------------Finished About Section --------------------------------------------------------- */
+    
+    .resume-experience
+    {
+        
+        padding: 1rem;
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .resume-links a
+    {
+        font-size: 0.5rem;
+        padding: 0.5rem;
+        width: 70px;
+        margin: 0 0.3rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+    .exp-part1, .exp-part2
+    {
+        padding: 1rem 0;
+        width: 100%;
+        margin: 0.5rem;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exp1-col1
+    {
+        padding: 1rem;
+        height: max-content;
+        width: 100%;
+
+    }
+
+    .exp1-col2
+    {
+        margin-top: 1rem;
+        padding: 1rem;
+        height: max-content;
+        width: 100%;
+    }
+
+    .exp2-col1
+    {
+        padding: 1rem;
+        border-radius: 2.5px;
+        height: 28%;
+        width: 100%;
+        
+    }
+
+    .exp2-col2
+    {
+        padding: 1rem;
+        border-radius: 2.5px;
+        height: max-content;
+        width: 100%;
+    }
+
+    .company-icon
+    {
+        color: white;
+        background-color: rgb(255, 35, 35);
+        padding: 0.5rem;
+        border-radius: 100%;
+        font-size: 1rem;
+    }
+
+    .apple
+    {
+        width: 2rem;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .company-details, .year, .company-definition
+    {
+        font-size: 0.6rem;
+    }
+
+    .company-heading
+    {
+        font-size: 0.9rem;
+    }
+
+}
+

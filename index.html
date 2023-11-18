@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:regular,500,600,700,800,900" rel="stylesheet" />
+    <title>John Doe - Web Page</title>
+    <style>
+        .contact
+        {
+            font-weight: bold;
+            padding: 0.6rem;
+            border-radius: 3px;
+            background-color: rgb(221, 0, 0);
+        }
+
+        .contact:hover, .contact:active
+        {
+            border-bottom: none;
+        }
+
+        #exp:hover
+        {
+            color: rgb(95, 95, 95);
+            border-bottom: rgb(95, 95, 95) solid 3px;
+        }
+
+        #exp:active
+        {
+            cursor: wait;
+        }
+
+        #design
+        {
+            color: white;
+            background-color: rgb(221, 0, 0);
+        }
+
+        .web-design
+        {
+            color: white;
+        }
+
+        #port-all
+        {
+            border-bottom: solid 2px rgb(221, 0, 0);
+            color: rgb(221, 0, 0);
+        }
+
+        #port-all:active
+        {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="entire-section">
+        <header id="header">
+            <div class="banner">
+                <i class="fa-solid fa-dragon"></i> 
+                <p>GIVENDARIAN</p>
+                <span style="color: rgb(221, 0, 0); margin-left: 0.15rem; font-weight: bolder;">21</span>
+            </div>
+            <div class="dropdown-menu">
+                <label for="menu"><span class="bars"><i class="fa-solid fa-bars"></i></span></label>
+                <input type="checkbox" name="check" id="menu">
+                <nav>
+                    <a href="#home-section" id="home" onclick="activeHome()">HOME</a>
+                    <a href="#about-section" id="about" onclick="activeAbout()">ABOUT</a>
+                    <a href="#skill-section" id="skillz" onclick="activeSkillz()">SKILLS</a>
+                    <a href="#resume-section" id="resume" onclick="activeResume()">RESUME</a>
+                    <a href="#service-section" id="services" onclick="activeServices()">SERVICES</a>
+                    <a href="#portfolio-section" id="portfolio" onclick="activePortfolio()">PORTFOLIO</a>
+                    <a href="#team-section" id="team" onclick="activeTeam()">TEAM</a>
+                    <a href="#social-section" id="social" onclick="activeSocial()">SOCIAL</a>
+                    <a href="#blog-section" id="blog" onclick="activeBlog()">BLOG</a>
+                    <a href="#contacts-section" class="contact">CONTACT</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section class="home" id="home-section">
+                <p>HI, I' AM</p>
+                <h1>JOHN DOE</h1>
+                <div class="whatido">
+                    <pre>UX/UI DESIGNER - PHOTOGRAPHER - WEB DEVELOPER</pre>
+                </div>
+                <a href="#" class="me">GET TO KNOW ME</a>
+                <a href="#" class="play"><i class="fa-solid fa-play-circle"></i></a>
+            </section>
+
+            <section class="about" id="about-section">
+                <div class="image">
+                    <img src="peterson.jpg" alt="John Doe">
+                </div>
+                <div class="description">
+                    <h3>HELLO,</h3>
+                    <p>
+                        John Doe is a versatile professional excelling in UI/UX design, photography, and web development. With a keen eye for aesthetic appeal, he crafts seamless user experiences, captures captivating moments through his lens, and brings websites to life with his coding prowess. Explore John's portfolio to witness the seamless fusion of creativity and technical expertise.
+                    </p>
+                    <hr>
+                    <div class="table">
+                        <div class="row1">
+                            <div class="col1">
+                                <p class="title">NAME:</p>
+                                <p class="value">&nbsp; John Doe</p>
+                            </div>
+                            <div class="col1">
+                                <p class="title">JOB TITLE:</p>
+                                <p class="value">&nbsp;UI/UX Designer</p>
+                            </div>
+                        </div>
+
+                        <div class="row2">
+                            <div class="col2">
+                                <p class="title">AGE:</p>
+                                <p class="value">&nbsp;21</p>
+                            </div>
+                            <div class="col2">
+                                <p class="title">LOCATION:</p>
+                                <p class="value">&nbsp;Kampala, Uganda</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-links">
+                        <a href="#header" class="cv"><i class="fa-solid fa-download"></i>&nbsp; DOWNLOAD CV</a>
+                        <a href="#header" class="hire-me"><i class="fa-solid fa-angles-right"></i>&nbsp;&nbsp; HIRE ME</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills" id="skill-section">
+                <div class="intro-skills">
+                    <h3>MY SKILLS</h3>
+                    <p>
+                        John Doe showcases his design finesse with a simple yet stunning portfolio webpage. Meticulously crafted, the site seamlessly integrates his UI/UX expertise, captivating photography, and flawless web development skills. Through an elegant blend of visuals and functionality, John's portfolio stands as a testament to his ability to create an exceptional online presence.
+                    </p>
+                </div>
+                <div class="the-skills">
+                    <div class="skills-set">
+                        <span><i class="fa-solid fa-trophy"></i></span>
+                        <div class="p-ranges">
+                            <p>PHOTOSHOP - 83%</p>
+                            <div class="range">
+                                <p class="percentage1" style="color: transparent;">.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-set">
+                        <span><i class="fa-solid fa-computer-mouse"></i></span>
+                        <div class="p-ranges">
+                            <p>ILLUSTRATOR - 75%</p>
+                            <div class="range">
+                                <p class="percentage2" style="color: transparent;">.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-set">
+                        <span><i class="fa-brands fa-html5"></i></span>
+                        <div class="p-ranges">
+                            <p style="text-align: center;">HTML - 90%</p>
+                            <div class="range">
+                                <p class="percentage3" style="color: transparent;">.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-buttons">
+                    <a href="#" class="left"><i class="fa-regular fa-hand-point-left"></i></a>
+                    <a href="#" class="right"><i class="fa-regular fa-hand-point-right"></i></a>
+                </div>
+            </section>
+
+            <section class="resume" id="resume-section">
+                <div class="resume-intro">
+                    <h2 class="resume-h2">MY RESUME</h2>
+                    <p class="resume-p">Previous Associations that helped to gather experience.</p>
+                </div>
+
+                <div class="resume-links">
+                    <a href="#" id="exp"><i class="fa-solid fa-briefcase"></i>&nbsp; Experience</a>
+                    <a href="#"><i class="fa-solid fa-user-graduate"></i>&nbsp; Education</a>
+                    <a href="#"><i class="fa-solid fa-award"></i>&nbsp; Award</a>
+                </div>
+
+                <div class="resume-experience">
+                    <div class="exp-part1">
+                        <div class="exp1-col1">
+                            <!-- Company year -->
+                            <div class="company-year">
+                                <div class="company-description">
+                                    <span class="company-icon"><i class="fa-brands fa-google"></i></span>
+                                    <p class="company-details">
+                                        <span class="company-heading">Google.Inc</span><br>UI/UX Designer
+                                    </p>
+                                </div>
+                                <p class="year">2003-2005</p>
+                            </div>
+                            <hr>
+                            <div class="company-definition">
+                                <p>
+                                    Google LLC is an American multinational technology company focusing on artificial intelligence and other inter- related services.
+                                </p>
+                            </div>
+                            <div class="company-tags">
+                                <span class="tags">Photoshop</span>
+                                <span class="tags">Illustrator</span>
+                                <span class="tags">UI/UX</span>
+                            </div>
+                            <div class="google-img">
+                                <img src="google.jpg" alt="Google" class="google-image">
+                            </div>
+                        </div>
+
+                        <div class="exp1-col2">
+                            <!-- Company year -->
+                            <div class="company-year">
+                                <div class="company-description">
+                                    <span class="company-icon apple"><i class="fa-brands fa-apple"></i></span>
+                                    <p class="company-details">
+                                        <span class="company-heading">Apple</span><br>UI/UX Designer
+                                    </p>
+                                </div>
+                                <p class="year">2006-2008</p>
+                            </div>
+                            <hr>
+                            <div class="company-definition">
+                                <p>
+                                    Apple Inc. is an American multinational technology company headquartered in Cupertino, California.
+                                    Apple is the world's biggest company by market capitalization, and with US$394.3 billion the largest technology company by 2022 revenue.
+                                </p>
+                            </div>
+                            <div class="company-tags">
+                                <span class="tags">Photoshop</span>
+                                <span class="tags">Illustrator</span>
+                                <span class="tags">UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="exp-part2">
+                        <div class="exp2-col1">
+                            <!-- Company year -->
+                            <div class="company-year">
+                                <div class="company-description">
+                                    <span class="company-icon apple"><i class="fa-brands fa-facebook-f"></i></span>
+                                    <p class="company-details">
+                                        <span class="company-heading">Facebook</span><br>Web Developer
+                                    </p>
+                                </div>
+                                <p class="year">2005-2010</p>
+                            </div>
+                            <hr>
+                            <div class="company-definition">
+                                <p>
+                                    Meta Platforms, Inc., doing business as Meta, and formerly named Facebook, Inc., and TheFacebook, Inc., is an American multinational technology conglomerate based in Menlo Park, California.
+                                </p>
+                            </div>
+                            <div class="company-tags">
+                                <span class="tags">Photoshop</span>
+                                <span class="tags">Illustrator</span>
+                                <span class="tags">UI/UX</span>
+                            </div>
+                        </div>
+
+                        <div class="exp2-col2" style="margin-top: 1rem;">
+                            <!-- Company year -->
+                            <div class="company-year">
+                                <div class="company-description">
+                                    <span class="company-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                                    <p class="company-details">
+                                        <span class="company-heading">WhatsApp</span><br>UI/UX Designer
+                                    </p>
+                                </div>
+                                <p class="year">2004-2009</p>
+                            </div>
+                            <hr>
+                            <div class="company-definition">
+                                <p>
+                                    WhatsApp is a freeware, cross-platform, centralized instant messaging and voice-over-IP service owned by United States tech conglomerate Meta Platforms.
+                                </p>
+                            </div>
+                            <div class="company-tags">
+                                <span class="tags">Photoshop</span>
+                                <span class="tags">Illustrator</span>
+                                <span class="tags">UI/UX</span>
+                            </div>
+                            <div class="google-img">
+                                <img src="google.jpg" alt="Google" class="google-image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </section>
+
+            <section class="services" id="service-section">
+                <div class="black-background">
+                    <div class="services-header">
+                        <h3>SERVICES</h3>
+                        <p>What services I provide to my customers</p>
+                    </div>
+                    <div class="services-offered">
+                        <div class="design" id="design">
+                            <span class="web-design"><i class="fa-solid fa-laptop"></i></span>
+                            <h3>WEB DESIGNING</h3>
+                            <p class="web-description">
+                                Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+                            </p>
+                        </div>
+                        <div class="brand">
+                            <span class="branding"><i class="fa-solid fa-paintbrush"></i></span>
+                            <h3>BRANDING</h3>
+                            <p class="brand-description">
+                                A brand is a name, term, design, symbol or any other feature that distinguishes one seller's good or service from those of other sellers.
+                            </p>
+                        </div>
+                        <div class="photo">
+                            <span class="photography"><i class="fa-solid fa-image"></i></span>
+                            <h3>PHOTOGRAHPY</h3>
+                            <p class="photo-description">
+                                Photography is the art, application, and practice of creating images by recording light, either electronically by means of an image sensor.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio" id="portfolio-section">
+                <h2 style="margin: 1rem; font-size: 2rem; text-align: center;">MY PORTFOLIO</h2>
+                <p>Previous associations that helped gather experience</p>
+                <div class="portfolio-links">
+                    <a href="#" class="port-links" id="port-all">ALL</a>
+                    <a href="#" class="port-links">ART</a>
+                    <a href="#" class="port-links">ACCESSORIES</a>
+                    <a href="#" class="port-links">DESIGN</a>
+                    <a href="#" class="port-links">FASHION</a>
+                </div>
+
+                <div class="portfolio-images">
+                    <div class="port-img-row1">
+                        <div class="port-img"><img src="Portfolio Images/admin.jpg" alt="Portfolio Image 1"></div>
+                        <div class="port-img">
+                            <img src="Portfolio Images/code.jpg" alt="Portfolio Image 2">
+                            <div class="bg-color">
+                                <p style="display: flex; flex-direction: column;" class="gold">
+                                    <span class="gold-icon">&plus;</span>
+                                    <span style=" margin: 0.5rem; font-weight: bold;" class="gold-p">Coding Dreams</span>
+                                    <span class="desiner">Designer</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="port-img"><img src="Portfolio Images/cutetess.jpg" alt="Portfolio Image 3"></div>
+                    </div>
+                    <div class="port-img-row1">
+                        <div class="port-img"><img src="Portfolio Images/fish.jpg" alt="Portfolio Image 4"></div>
+                        <div class="port-img"><img src="Portfolio Images/mario.jpg" alt="Portfolio Image 5"></div>
+                        <div class="port-img"><img src="Portfolio Images/system.jpg" alt="Portfolio Image 6"></div>
+                    </div>
+                </div>
+                <a href="#" class="load-more">LOAD MORE</a>
+            </section>
+
+            <section class="team" id="team-section">
+                <h2 style="margin: 1rem;">MY TEAM</h2>
+                <p style="margin: 0.5rem;">Previous associations that helped to gather experience.</p>
+                <div class="myteamates">
+                    <div class="team-row1">
+                        <div class="teammates">
+                            <img src="linda.jpg" alt="Linda Grey" class="team-img">
+                            <h3 class="mate-name">Linda Grey</h3>
+                            <p>Founder & CEO</p>
+                        </div>
+                        <div class="teammates">
+                            <img src="Patrick.jpg" alt="Patrick Roam" class="team-img">
+                            <h3 class="mate-name">Patrick Roam</h3>
+                            <p>Web Designer</p>
+                        </div>
+                    </div>
+                    <div class="team-row1">
+                        <div class="teammates">
+                            <img src="Johnson.jpg" alt="Johnson Pierce" class="team-img">
+                            <h3 class="mate-name">Johnson Pierce</h3>
+                            <p>React Developer</p>
+                        </div>
+                        <div class="teammates viewed">
+                            <h3>Katinda Arson</h3>
+                            <p>UI/UX Designer</p>
+                            <hr style="border: black 1px solid; margin: 1rem auto; width: 100%;">
+                            <p>Photoshop - 90%</p>
+                            <div class="range">
+                                <div class="percentage1"></div>
+                            </div>
+                            <p>Illustrator - 70%</p>
+                            <div class="range">
+                                <div class="percentage2"></div>
+                            </div>
+                            <p>Teamwork - 85%</p>
+                            <div class="range">
+                                <div class="percentage3"></div>
+                            </div>
+                            <hr style="border: black 1px solid; margin: 1rem auto; width: 100%;">
+                            <div class="media-icon">
+                                <span class="iconz"><i class="fa-brands fa-facebook"></i></span>
+                                <span class="iconz"><i class="fa-brands fa-whatsapp"></i></span>
+                                <span class="iconz"><i class="fa-brands fa-discord"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-dots">
+                    <div class="dot1"></div>
+                    <div class="dot2"></div>
+                </div>
+            </section>
+
+            <section class="achievement-bgcolor">
+                <div class="achievements-section">
+                    <div class="achieve-row1">
+                        <div class="achievement">
+                            <span class="achievement-icon"><i class="fa-regular fa-circle-check"></i> 256</span>
+                            <p class="achievement-p">PROJECTS COMPLETED</p>
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-icon"><i class="fa-regular fa-face-laugh"></i> 154</span>
+                            <p class="achievement-p">HAPPY CUSTOMERS</p>
+                        </div>
+                    </div>
+                    <div class="achieve-row1">
+                        <div class="achievement">
+                            <span class="achievement-icon"><i class="fa-regular fa-clock"></i> 3472</span>
+                            <p class="achievement-p">WORKING HOURS</p>
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-icon"><i class="fa-regular fa-envelope"></i> 154</span>
+                            <p class="achievement-p">GREAT FEEDBACKS</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="social" id="social-section">
+                <h2 class="social-heading">FROM SOCIAL</h2>
+                <p class="social-details">Follow me on <a href="#" class="social-links">Flicker</a>, <a href="#" class="social-links">Instagram</a> & <a href="#" class="social-links">Dribble</a></p>
+                <div class="social-media-icons">
+                    <span class="social-icons" style="border-bottom: 3px solid rgb(221, 0, 0); color: rgb(221, 0, 0);"><i class="fa-solid fa-film"></i> Flicker</span>
+                    <span class="social-icons"><i class="fa-brands fa-instagram"></i> Instagram</span>
+                    <span class="social-icons"><i class="fa-solid fa-futbol"></i> Dribble</span>
+                </div>
+                <div class="social-images">
+                    <div class="social-rows">
+                        <div class="social-imageholder">
+                            <img src="Social Images/bikeguy.jpg" alt="picture 1" class="social-img">
+                        </div>
+                        <div class="social-imageholder">
+                            <img src="Social Images/blackie.jpg" alt="picture 1" class="social-img">
+                        </div>
+                        <div class="social-imageholder">
+                            <img src="Social Images/flower.jpg" alt="picture 1" class="social-img">
+                        </div>
+                        <div class="social-imageholder">
+                            <img src="Social Images/pupguy.jpg" alt="picture 1" class="social-img">
+                        </div>
+                    </div>
+                    <div class="social-rows">
+                        <div class="social-imageholder">
+                            <img src="Social Images/smily.jpg" alt="picture 1" class="social-img">
+                        </div>
+                        <div class="social-imageholder">
+                            <img src="Social Images/waterguy.jpg" alt="picture 1" class="social-img">
+                        </div>
+                        <div class="social-imageholder">
+                            <img src="Social Images/woman.jpg" alt="picture 1" class="social-img">
+                        </div>
+                        <div class="social-imageholder">
+                            <img src="Social Images/yellow.jpg" alt="picture 1" class="social-img">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimony">
+                <div class="testimony-bg-color">
+                    <div class="testifier">
+                        <img src="testifer.jpg" alt="Kagami Sandra Corason" class="person-testifier">
+                    </div>
+                    <p style="color: white; width: 90%; margin: 3rem; font-style: italic;">
+                        "I am so impressed with the work that you have done on my webpage. It is visually appealing and easy to navigate. I especially love the way that you have incorporated my personal style. Thank you so much for your hard work and dedication!"
+                    </p>
+                    <p style="color: rgb(255, 61, 61); font-weight: bold; font-size: 1.3rem;">Kagami Sandra Corason</p>
+                    <div class="div test-dots">
+                        <div class="next-dot"></div>
+                        <div class="next-dot"></div>
+                        <div class="next-dot"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="blog" id="blog-section">
+                <div class="blog-header">
+                    <h2 class="blog-heading">BLOG POST</h2>
+                    <p class="blog-detail">Lets share the lastest posts and best articles.</p>
+                </div>
+
+                <div class="blog-main-column">
+                    <div class="blog-column">
+                        <div class="blog-content1">
+                            <div class="blog-structure">
+                                <h3 class="blog-h3">Don't cry because it's over, smile because it happened.</h3>
+                                <div class="blog-spaced1">
+                                    <p>Elhadad Bilmak</p>
+                                    <span><i class="fa-solid fa-quote-right"></i></span>
+                                </div>
+                            </div>
+                            <hr style="margin: 0.1rem 0 0 0; width: 100%;">
+                            <div class="blog-spaced2">
+                                <p class="spaced-comments">10 Comments</p>
+                                <span class="share-icon"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="blog-content2">
+                            <div class="blog-audio-details">
+                                <audio style="width: 100%;" controls>
+                                    <source src="audio.mp3" type="audio/mpeg">Your browser does not support the audio tag.
+                                </audio>
+                                <div class="blog-audio">
+                                    <h3 class="blog-post-heading">THIS IS AN AUDIO POST</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam voluptatem dolorum, a.
+                                    </p>
+                                </div>
+                            </div>
+                            <hr style="margin: 0.1rem 0 0 0; width: 100%;">
+                            <div class="blog-spaced2">
+                                <p class="spaced-comments">10 Comments</p>
+                                <span class="share-icon"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="blog-content1">
+                            <div class="blog-structure">
+                                <h3 class="blog-h3">The quick brown fox jumps over the lazy dog that sleeps.</h3>
+                                <div class="blog-spaced1">
+                                    <p>Kinton Jonathan</p>
+                                    <span><i class="fa-solid fa-quote-right"></i></span>
+                                </div>
+                            </div>
+                            <hr style="margin: 0.1rem 0 0 0; width: 100%;">
+                            <div class="blog-spaced2">
+                                <p class="spaced-comments">10 Comments</p>
+                                <span class="share-icon"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-column">
+                        <div class="blog-content4">
+                            <div class="blog-image">
+                                <img src="camerakid.jpg" alt="Camera Kid" class="camera-kid-img">
+                                <p class="date-img">November, 11 2023</p>
+                            </div>
+                            <h3 style="margin: 1rem 0; padding-left: 0.5rem;">WE LOVE PHOTOGRAHPY</h3>
+                            <p class="blog-image-details">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maiores minus laudantium quibusdam cum eum, at modi nobis asperiores?
+                            </p>
+                            <hr style="margin: 0.1rem 0 0 0; width: 100%;">
+                            <div class="blog-spaced2">
+                                <p class="spaced-comments">10 Comments</p>
+                                <span class="share-icon"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="blog-content5">
+                            <video style="width: 100%; height: auto;" controls muted>
+                                <source src="video.mp4" type="video/mp4"> Your browser does not support the video tag.
+                            </video>
+                            <div class="video-details">
+                                <h3 style="padding: 0.5rem 0;">THIS IS VIDEO POST TWO</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nemo ipsam ipsum laboriosam modi, repudiandae, dolorum hic provident dolore eligendi officia, ad minima facere? Suscipit dolorem optio atque fugiat! Consectetur.
+                                </p>
+                            </div>
+                            <hr style="margin: 0.1rem 0 0 0; width: 100%;">
+                            <div class="blog-spaced2">
+                                <p class="spaced-comments">10 Comments</p>
+                                <span class="share-icon"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="blog-content4">
+                            <div class="blog-image">
+                                <img src="flowergirl.jpg" alt="Camera Kid" class="camera-kid-img">
+                                <p class="date-img">November, 11 2023</p>
+                            </div>
+                            <h3 style="margin: 1rem 0; padding-left: 0.5rem;">MUSIC IS A WAY TO RELAX BODY AND MIND.</h3>
+                            <p class="blog-image-details">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maiores minus laudantium quibusdam cum eum, at modi nobis asperiores?
+                            </p>
+                            <hr style="margin: 0.1rem 0 0 0; width: 100%;">
+                            <div class="blog-spaced2">
+                                <p class="spaced-comments">10 Comments</p>
+                                <span class="share-icon"><i class="fa-solid fa-share-nodes"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-link">
+                    <a href="#" class="view-all">VIEW ALL</a>
+                </div>
+            </section>
+
+            <section class="lower-section">
+                <div class="lower-bgcolor">
+                    <div class="lower-tripple">
+                        <div class="lower-double">
+                            <div class="lower-icons">
+                                <span class="lower-icon"><i class="fa-solid fa-phone"></i></span>
+                                <div class="lower-details">
+                                    <h4 style="margin: 0.25rem 0;">CALL ME</h4>
+                                    <p>+74 53498 3203 32</p>
+                                </div>
+                            </div>
+                            <div class="lower-icons">
+                                <span class="lower-icon"><i class="fa-solid fa-envelope"></i></span>
+                                <div class="lower-details">
+                                    <h4 style="margin: 0.25rem 0;">Email</h4>
+                                    <p>johndoe@doenian.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lower-single">
+                            <div class="lower-icons">
+                                <span class="lower-icon"><i class="fa-solid fa-location-dot"></i></span>
+                                <div class="lower-details">
+                                    <h4 style="margin: 0.25rem 0;">Address</h4>
+                                    <p>Name Street, Ugolian State.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="contacts" id="contacts-section">
+                <div class="contacts-header">
+                    <h2 class="contacts-heading">SAY HELLO</h2>
+                    <p class="contacts-paragraph">Ready to keep in Touch with Me for amazing things?</p>
+                </div>
+                <form>
+                    <div class="contacts-input">
+                        <input type="text" name="names" id="name" placeholder="Full Names">
+                        <input type="email" name="email addredd" id="mail" placeholder="Email Address...">
+                        <input type="text" name="subjects" id="subject" placeholder="Subject...">
+                    </div>
+                    <div class="contacts-text">
+                        <textarea name="textarea" id="message" placeholder="Enter your message Here..."></textarea>
+                    </div>
+                </form>
+                <input type="submit" value="SEND" id="button">
+            </section>
+
+        </main>
+
+        <footer>
+            <section class="location">
+                <div class="location-bgcolor">
+                    <h3>LOCATE ON THE MAP</h3>
+                </div>
+            </section>
+
+            <section class="information">
+                <div class="info1">
+                    <div class="info-col1">
+                        <i class="fa-solid fa-dragon"></i> 
+                        <p>GIVENDARIAN <span style="color: rgb(221, 0, 0); font-weight: bolder;">21</span></p>
+                    </div>
+                    <div class="info-col2">
+                        <h4 class="info">PAGE LINKS</h4>
+                        <p class="info">Portfolio</p>
+                        <p class="info">Blog</p>
+                        <p class="info">About</p>
+                        <p class="info">Contact</p>
+                    </div>
+                </div>
+
+                <div class="info2">
+                    <div class="info-col2">
+                        <h4 class="info">OTHER</h4>
+                        <p class="info">Terms and Conditions</p>
+                        <p class="info">Privacy Policy</p>
+                        <p class="info">SiteMap</p>
+                        <p class="info">Help</p>
+                    </div>
+
+                    <div class="info-col2">
+                        <h4 class="info">GET IN TOUCH</h4>
+                        <p class="info">Phone: +439 328 9233</p>
+                        <p class="info">Email: johndoe@doinon.com</p>
+                        <p class="p-icons">
+                            <span class="footer-icons"><i class="fa-brands fa-facebook-f" style="color: #0014ce;"></i></span>
+                            <span class="footer-icons"><i class="fa-brands fa-twitter" style="color: #55ece4;"></i></span>
+                            <span class="footer-icons"><i class="fa-brands fa-google-plus-g" style="color: #dc3f3f;"></i></span>
+                            <span class="footer-icons"><i class="fa-brands fa-whatsapp" style="color: #227722;"></i></span>
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+            <hr>
+            <p style="text-align: center; padding: 1rem;">Givendarian &copy; 2023. All rights reserved</p>
+        </footer>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
